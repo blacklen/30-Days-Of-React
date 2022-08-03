@@ -10,6 +10,7 @@ export default function RandomColor({ length }) {
           <div
             className="color"
             style={{ backgroundColor: color }}
+            key={color}
           > {color}
           </div>
         ))
